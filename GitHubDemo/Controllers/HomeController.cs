@@ -32,5 +32,11 @@ namespace GitHubDemo.Controllers
             ViewBag.Message = "This is a login feature message.";
             return View();
         }
+
+        public ActionResult Master()
+        {
+            ViewBag.Message = "This is a master message.";
+            return View();
+        }
     }
 }
